@@ -256,12 +256,9 @@ p {
     h3 {
         color: #333;
     }
-    p {
-        color: #333;
-    }
     h1 {
         color: #b78727;
-        font-size: 1.9rem;
+        font-size: 2.3rem;
         margin-top: 0px;
     }
 }
@@ -271,7 +268,7 @@ p {
 
 @media screen and (max-width: 400px) {
     .letter-container {
-        width: 70%;
+        width: 90%;
     }
     .envelope {
         width: 70%;
@@ -293,17 +290,21 @@ p {
     }
     .letter {
         width: 85%;
+        padding: 10px 3px;
     }
     h3 {
         color: #333;
     }
     p {
         color: #333;
+        padding: 3px 5px;
     }
     h1 {
         color: #b78727;
-        font-size: 1.3rem;
-        margin-top: 0px;
+        font-size: 1.8rem;
+    }
+    h4 {
+        font-size: 1.2rem;
     }
 }
 
@@ -341,7 +342,7 @@ p {
     h1 {
         color: #b78727;
         font-size: 1.5rem;
-        margin-top: 0px;
+        padding: 0px 0px;
     }
 }
 
